@@ -28,29 +28,7 @@
                "argument": ""
             },
             {
-               "type": 1,
-               "name": "Ease 75, 75",
-               "description": "",
-               "icon": {
-                  "type": 2,
-                  "path": "data:image/svg+xml;utf8,<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1.5\" y=\"1.5\" width=\"97\" height=\"97\" stroke=\"#FF8A00\" stroke-width=\"3\"/><path d=\"M7 91C32.2 83.3627 43.8 75.3235 50.6 9C57.4 74.9215 71.8 81.7548 93 91\" stroke=\"#FF8A00\" stroke-width=\"7\" stroke-linejoin=\"round\"/></svg>",
-                  "color": ""
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_ease.jsx",
-               "argument": "75, 75",
-               "id": "e3deb7a1-dba0-4457-aded-f523feaf6ea3"
-            },
-            {
-               "name": "TEST",
+               "name": "test",
                "description": "",
                "icon": {
                   "type": 0,
@@ -67,8 +45,8 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter_Test.jsx",
-               "argument": "10, frame",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\replace_assets.jsx",
+               "argument": "",
                "id": "ca0d31fa-4ee0-49b2-a43d-77036ca5d89b"
             }
          ],
@@ -721,49 +699,6 @@
                "id": "7b4748ad-c880-4dbf-b9d6-2d80e90a2262"
             },
             {
-               "name": "KEY REVERSE",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "path": "KEY REV",
-                  "color": "rgba(150, 255, 0, 1)"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "type": 5,
-               "menuCommand": "Time-Reverse Keyframes",
-               "id": "e3d75b04-bedf-49ea-b25a-9247a0534bc5"
-            },
-            {
-               "name": "Paste Keys",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "path": "PASTKEYS",
-                  "color": "rgba(255, 255, 0, 1)"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "C:\\Program Files\\Adobe\\Adobe After Effects 2024\\Support Files\\Scripts\\ScriptUI Panels\\Paste Multiple Keyframes v2-0-11.jsxbin",
-               "argument": "",
-               "id": "bf35669d-3a54-49e9-9aaa-b39cec28ac72"
-            },
-            {
                "name": "Easy Copy",
                "description": "",
                "icon": {
@@ -906,49 +841,6 @@
                "id": "c4cb61e4-cd99-4bf8-82de-2664bdb39f4f"
             },
             {
-               "type": 5,
-               "name": "Select Children",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "path": "SELECT  CHILDREN",
-                  "color": "rgba(255, 255, 255, 1)"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "menuCommand": "Select Children",
-               "id": "e3b663df-260d-458f-9518-428b4a01d893"
-            },
-            {
-               "name": "Opacity from Parent",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "rgba(255, 255, 255, 1)",
-                  "path": "OPACITY PARENT"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Expressions\\exp_opacity_from_parent.jsx",
-               "argument": "",
-               "id": "60646764-efcc-4e59-8e24-4d33ece79162"
-            },
-            {
                "id": "937a55ad-7b21-4b31-a210-3c90efb50792",
                "type": 8,
                "name": "-",
@@ -1074,26 +966,6 @@
                "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
                "argument": "1, sec, Opacity, 33, 33, 33, 33",
                "id": "a74c9d81-4f63-42bd-a78b-ba1035f6fa1e"
-            },
-            {
-               "id": "23f6babc-fcbb-4389-be5c-08cd012af1f3",
-               "type": 8,
-               "name": "-",
-               "description": "-",
-               "icon": {
-                  "type": 0,
-                  "path": "",
-                  "color": ""
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               }
             },
             {
                "type": 1,
@@ -1255,11 +1127,11 @@
             },
             {
                "type": 0,
-               "name": "SIZE ADAPT",
+               "name": "loop",
                "description": "",
                "icon": {
                   "type": 0,
-                  "path": "SIZE  ADAPT",
+                  "path": "LOOP OUT",
                   "color": "rgba(255, 255, 255, 1)"
                },
                "modifiers": {
@@ -1271,8 +1143,52 @@
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "expression": "// Исходное разрешение прекомпозиции\nvar originalWidth = 720;\nvar originalHeight = 1080;\n\n// Размеры композиции, в которую вставляется прекомпозиция\nvar compWidth = thisComp.width;\nvar compHeight = thisComp.height;\n\n// Расчет соотношений масштаба для ширины и высоты\nvar scaleX = compWidth / originalWidth * 100;\nvar scaleY = compHeight / originalHeight * 100;\n\n// Применяем меньшее из двух соотношений, чтобы избежать искажения пропорций\nvar scale = Math.min(scaleX, scaleY);\n\n[scale, scale]",
-               "id": "8b5cfb17-100c-43f8-8667-63de856d2ab1"
+               "expression": "loopOut();",
+               "id": "9ea4df83-c397-4a62-8230-12c50a2b36c5"
+            },
+            {
+               "name": "Loop Wiggle",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "color": "rgba(255, 255, 255, 1)",
+                  "path": "LOOPWIGG"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 1,
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Expressions\\exp_loop_wiggle.jsx",
+               "argument": "",
+               "id": "47958c8a-b9ee-4d12-aadd-8998c19b2270"
+            },
+            {
+               "name": "Opacity from Parent",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "color": "rgba(255, 255, 255, 1)",
+                  "path": "OPACITY PARENT"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 1,
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Expressions\\exp_opacity_from_parent.jsx",
+               "argument": "",
+               "id": "60646764-efcc-4e59-8e24-4d33ece79162"
             },
             {
                "type": 1,
@@ -1319,49 +1235,6 @@
                "id": "9d2a2c3e-7ec0-4aad-90f2-34867e3d4ef3"
             },
             {
-               "name": "Loop Wiggle",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "rgba(255, 255, 255, 1)",
-                  "path": "LOOPWIGG"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Expressions\\exp_loop_wiggle.jsx",
-               "argument": "",
-               "id": "47958c8a-b9ee-4d12-aadd-8998c19b2270"
-            },
-            {
-               "type": 0,
-               "name": "loop",
-               "description": "",
-               "icon": {
-                  "type": 1,
-                  "path": "repeat",
-                  "color": "rgba(255, 255, 255, 1)"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "expression": "loopOut();",
-               "id": "9ea4df83-c397-4a62-8230-12c50a2b36c5"
-            },
-            {
                "id": "bff7bbf7-f0d9-4307-8f2e-ea2cb7c2d4bc",
                "type": 8,
                "name": "-",
@@ -1380,6 +1253,28 @@
                   "ctrlshift": null,
                   "ctrlaltshift": null
                }
+            },
+            {
+               "name": "Lumetri Color",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "LUMETRI ",
+                  "color": "rgba(208, 0, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 3,
+               "matchName": "ADBE Lumetri",
+               "displayName": "Lumetri Color",
+               "id": "44c3233d-091e-4b20-afc6-2c249a36604d"
             },
             {
                "name": "Curves",
@@ -1426,11 +1321,12 @@
                "id": "23d3279c-4445-4873-8a92-c0a1ead8ddfc"
             },
             {
-               "name": "Selective Color",
+               "type": 3,
+               "name": "FILL               ",
                "description": "",
                "icon": {
                   "type": 0,
-                  "path": "SELCOL",
+                  "path": "FILL",
                   "color": "rgba(208, 0, 255, 1)"
                },
                "modifiers": {
@@ -1442,32 +1338,9 @@
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "type": 3,
-               "matchName": "ADBE SelectiveColor",
-               "displayName": "Selective Color",
-               "id": "9a7f2c2c-7818-4b61-beb3-5a08a31bdd8c"
-            },
-            {
-               "name": "Lumetri Color",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "path": "LUMETRI ",
-                  "color": "rgba(208, 0, 255, 1)"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "type": 3,
-               "matchName": "ADBE Lumetri",
-               "displayName": "Lumetri Color",
-               "id": "44c3233d-091e-4b20-afc6-2c249a36604d"
+               "matchName": "ADBE Fill",
+               "displayName": "Fill",
+               "id": "19faf2eb-6fac-438b-b895-69aa89c0ccce"
             },
             {
                "name": "Gaussian Blur",
@@ -1490,50 +1363,6 @@
                "matchName": "ADBE Gaussian Blur 2",
                "displayName": "Gaussian Blur",
                "id": "328a3f9a-e0df-4d3b-beb0-33f9c676320e"
-            },
-            {
-               "type": 3,
-               "name": "Shift Channels",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "path": "SHIFT CHAN",
-                  "color": "rgba(208, 0, 255, 1)"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "matchName": "ADBE Shift Channels",
-               "displayName": "Shift Channels",
-               "id": "1d462157-61a0-49f9-a7d4-d28881cc5a5e"
-            },
-            {
-               "type": 3,
-               "name": "FILL               ",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "path": "FILL",
-                  "color": "rgba(208, 0, 255, 1)"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "matchName": "ADBE Fill",
-               "displayName": "Fill",
-               "id": "19faf2eb-6fac-438b-b895-69aa89c0ccce"
             },
             {
                "type": 3,
