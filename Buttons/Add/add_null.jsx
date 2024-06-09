@@ -30,6 +30,7 @@ function createNullAndParentLayers() {
     for (var i = 0; i < selectedLayers.length; i++) {
         var layer = selectedLayers[i];
 
+        layer.parent = null;
         // Проверка наличия свойства "Position"
         if (layer.property("Position")) {
             var position = layer.position.value;
@@ -77,10 +78,9 @@ function createNullAndParentLayers() {
     // Перемещение нулевого объекта над самым нижним из выделенных слоев
     nullLayer.moveBefore(activeComp.layer(minIndex+1));
 
-    selectedLayers[0].parent = nullLayer;
     // Установка нулевого объекта родительским для выделенных слоев
     for (var j = 0; j < selectedLayers.length; j++) {
-        selectedLayers[j].parent = nullLayer;
+       selectedLayers[j].parent = nullLayer;
     }
 }
 
