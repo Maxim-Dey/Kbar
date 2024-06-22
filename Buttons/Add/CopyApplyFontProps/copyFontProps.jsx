@@ -7,8 +7,8 @@
             var fontStyles = {
                 font: textDocument.font,
                 fontSize: textDocument.fontSize,
-                allCaps: textDocument.allCaps,
-                smallCaps: textDocument.smallCaps,
+                //allCaps: textDocument.allCaps,
+                //smallCaps: textDocument.smallCaps,
                 fauxBold: textDocument.fauxBold,
                 fauxItalic: textDocument.fauxItalic,
                 tracking: textDocument.tracking,
@@ -16,7 +16,7 @@
                 justification: textDocument.justification,
                 ligature: textDocument.ligature
             }
-
+            /*
             if (textDocument.applyFill) {
                 fontStyles.fill = {
                     applyFill: textDocument.applyFill,
@@ -39,7 +39,7 @@
                     applyStroke: textDocument.applyStroke
                 }
             }
-
+            */
         } catch (error) {alert(error);}
 
         var fontStylesString = JSON.stringify(fontStyles);

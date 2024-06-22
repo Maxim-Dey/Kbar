@@ -29,7 +29,7 @@
             if (layer instanceof TextLayer) {
                 var textDocument = layer.property("Source Text").value;
                 try {
-                    textDocument.resetCharStyle();
+                    //textDocument.resetCharStyle();
                     textDocument.font = fontStyles.font;
                     textDocument.fontSize = fontStyles.fontSize;
                     textDocument.fauxBold = fontStyles.fauxBold;
@@ -38,7 +38,7 @@
                     textDocument.leading = fontStyles.leading;
                     textDocument.justification = fontStyles.justification;
                     textDocument.ligature = fontStyles.ligature;
-
+                    /*
                     if (fontStyles.allCaps) {
                         textDocument.fontCapsOption = FontCapsOption.FONT_ALL_CAPS;
                     } else if (fontStyles.smallCaps) {
@@ -46,7 +46,7 @@
                     } else {
                         textDocument.fontCapsOption = FontCapsOption.FONT_NORMAL_CAPS;
                     }
-                
+                    /*
                     if (fontStyles.fill.applyFill) {
                         textDocument.applyFill = true;
                         textDocument.fillColor = fontStyles.fill.fillColor;
@@ -61,7 +61,7 @@
                     } else {
                         textDocument.applyStroke = false;
                     }
-                    
+                    */
                     layer.property("Source Text").setValue(textDocument);
 
                 } catch (error) {alert(error);}
