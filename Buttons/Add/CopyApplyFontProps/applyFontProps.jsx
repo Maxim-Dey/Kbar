@@ -1,58 +1,74 @@
-﻿(function() {
-    
-    var fontProps;
+﻿function importFontStyles() {
+    var tempFolder = Folder.temp;
+    var file = new File(tempFolder.fsName + "/fontStyles.json");
 
-    function loadFontProps() {
-        var file = new File(Folder.temp.absoluteURI + "/fontProps.json");
-        if (file.exists) {
-            file.open("r");
-            var content = file.read();
-            fontProps = JSON.parse(content);
-            
-            alert(fontProps.font);
-            
-            file.close();
-        } else {
-            alert("No font properties found. Please run the copyFontProps script first.");
-        }
+    if (!file.exists) {
+        alert("Font styles file not found.");
+        return;
     }
 
-    function applyFontProps() {
-        if (app.project.activeItem /*&& app.project.activeItem.selectedLayers.length > 0*/) {
-            if (!fontProps) {
-                loadFontProps();
-            }
-            for (var i = 0; i < app.project.activeItem.selectedLayers.length; i++) {
-                var selectedLayer = app.project.activeItem.selectedLayers[i];
-                if (selectedLayer instanceof TextLayer) {
-                    var textDoc = selectedLayer.property("Source Text").value;
-                    textDoc.font = fontProps.font;
-                    /*
-                    textDoc.fontSize = fontProps.fontSize;
-                    textDoc.fillColor = fontProps.fillColor;
-                    textDoc.strokeColor = fontProps.strokeColor;
-                    textDoc.strokeWidth = fontProps.strokeWidth;
-                    textDoc.fauxBold = fontProps.fauxBold;
-                    textDoc.fauxItalic = fontProps.fauxItalic;
-                    textDoc.allCaps = fontProps.allCaps;
-                    textDoc.smallCaps = fontProps.smallCaps;
-                    textDoc.tracking = fontProps.tracking;
-                    textDoc.baselineShift = fontProps.baselineShift;
-                    textDoc.tsume = fontProps.tsume;
-                    textDoc.leading = fontProps.leading;
-                    textDoc.justification = fontProps.justification;
-                    textDoc.applyFill = fontProps.applyFill;
-                    textDoc.applyStroke = fontProps.applyStroke;
-                    selectedLayer.property("Source Text").setValue(textDoc);
-                    */
-                }
-            }
-            alert("Font properties applied to selected layers.");
-        } else {
-            alert("No layer selected.");
-        }
+    file.open("r");
+    var fontStylesString = file.read();
+    file.close();
+
+    var fontStyles = JSON.parse(fontStylesString);
+    var selectedLayers = app.project.activeItem.selectedLayers;
+
+    if (selectedLayers.length === 0) {
+        alert("Please select at least one layer.");
+        return;
+    } else if (selectedLayers.length === 1 && !(selectedLayers[0] instanceof TextLayer)) {
+        alert("The selected layer is not a text layer.");
+        return;
     }
 
-        applyFontProps();
-    
-})();
+    app.beginUndoGroup("Import font styles");
+
+        for (var i = 0; i < selectedLayers.length; i++) {
+            var layer = selectedLayers[i];
+            if (layer instanceof TextLayer) {
+                var textDocument = layer.property("Source Text").value;
+                try {
+                    textDocument.resetCharStyle();
+                    textDocument.font = fontStyles.font;
+                    textDocument.fontSize = fontStyles.fontSize;
+                    textDocument.fauxBold = fontStyles.fauxBold;
+                    textDocument.fauxItalic = fontStyles.fauxItalic;
+                    textDocument.tracking = fontStyles.tracking;
+                    textDocument.leading = fontStyles.leading;
+                    textDocument.justification = fontStyles.justification;
+                    textDocument.ligature = fontStyles.ligature;
+
+                    if (fontStyles.allCaps) {
+                        textDocument.fontCapsOption = FontCapsOption.FONT_ALL_CAPS;
+                    } else if (fontStyles.smallCaps) {
+                        textDocument.fontCapsOption = FontCapsOption.FONT_SMALL_CAPS;
+                    } else {
+                        textDocument.fontCapsOption = FontCapsOption.FONT_NORMAL_CAPS;
+                    }
+                
+                    if (fontStyles.fill.applyFill) {
+                        textDocument.applyFill = true;
+                        textDocument.fillColor = fontStyles.fill.fillColor;
+                    } else {
+                        textDocument.applyFill = false;
+                    }
+                    
+                    if (fontStyles.strokeFill.applyStroke) {
+                        textDocument.applyStroke = true;
+                        textDocument.strokeColor = fontStyles.strokeFill.strokeColor;
+                        textDocument.strokeWidth = fontStyles.strokeFill.strokeWidth;
+                    } else {
+                        textDocument.applyStroke = false;
+                    }
+                    
+                    layer.property("Source Text").setValue(textDocument);
+
+                } catch (error) {alert(error);}
+            }
+        }
+
+    app.endUndoGroup();
+};
+
+importFontStyles();
