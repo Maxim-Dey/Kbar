@@ -29,6 +29,7 @@
             if (layer instanceof TextLayer) {
                 var textDocument = layer.property("Source Text").value;
                 try {
+                    ///////// Main
                     //textDocument.resetCharStyle();
                     textDocument.font = fontStyles.font;
                     textDocument.fontSize = fontStyles.fontSize;
@@ -38,7 +39,7 @@
                     textDocument.leading = fontStyles.leading;
                     textDocument.justification = fontStyles.justification;
                     textDocument.ligature = fontStyles.ligature;
-                    /*
+                    ///////// allCaps/smallCaps
                     if (fontStyles.allCaps) {
                         textDocument.fontCapsOption = FontCapsOption.FONT_ALL_CAPS;
                     } else if (fontStyles.smallCaps) {
@@ -46,22 +47,28 @@
                     } else {
                         textDocument.fontCapsOption = FontCapsOption.FONT_NORMAL_CAPS;
                     }
-                    /*
+                    ///////// Fill
                     if (fontStyles.fill.applyFill) {
                         textDocument.applyFill = true;
-                        textDocument.fillColor = fontStyles.fill.fillColor;
+                        if (fontStyles.fill.fillColor !== null && textDocument.characterRange(0, textDocument.text.length).fillColor !== undefined) {
+                            textDocument.fillColor = fontStyles.fill.fillColor;
+                        }
                     } else {
                         textDocument.applyFill = false;
                     }
-                    
+                    ///////// Stroke
                     if (fontStyles.strokeFill.applyStroke) {
                         textDocument.applyStroke = true;
-                        textDocument.strokeColor = fontStyles.strokeFill.strokeColor;
-                        textDocument.strokeWidth = fontStyles.strokeFill.strokeWidth;
+                        if (fontStyles.strokeFill.strokeColor !== null && textDocument.characterRange(0, textDocument.text.length).strokeColor !== undefined) {
+                            textDocument.strokeColor = fontStyles.strokeFill.strokeColor;
+                        }
+                        if (fontStyles.strokeFill.strokeWidth !== null && textDocument.characterRange(0, textDocument.text.length).strokeWidth !== undefined) {
+                            textDocument.strokeWidth = fontStyles.strokeFill.strokeWidth;
+                        }
                     } else {
                         textDocument.applyStroke = false;
                     }
-                    */
+                    ///////// End
                     layer.property("Source Text").setValue(textDocument);
 
                 } catch (error) {alert(error);}
