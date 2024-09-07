@@ -3,56 +3,6 @@
    "schema": 2.2,
    "toolbars": [
       {
-         "name": "Default",
-         "buttons": [
-            {
-               "name": "KBar Settings",
-               "description": "",
-               "icon": {
-                  "type": 1,
-                  "path": "cog",
-                  "color": ""
-               },
-               "type": 6,
-               "extensionId": "com.kraftyfx.kbar.config",
-               "id": "com.kraftyfx.kbar.config",
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "argument": ""
-            },
-            {
-               "name": "test",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "",
-                  "path": "TEST"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\replace_assets.jsx",
-               "argument": "",
-               "id": "ca0d31fa-4ee0-49b2-a43d-77036ca5d89b"
-            }
-         ],
-         "id": "45fa5721-eb68-45b9-977b-be9c36fda7b3"
-      },
-      {
          "name": "My KBar 1",
          "buttons": [
             {
@@ -135,7 +85,7 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_starts_folders.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_folders.jsx",
                "argument": "",
                "id": "1615a968-61f3-4afd-9c34-c5018a4ded26"
             },
@@ -181,436 +131,6 @@
                }
             },
             {
-               "name": "Shift 1 frame",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "rgba(0, 255, 0, 1)",
-                  "path": "+1 FR TIME"
-               },
-               "modifiers": {
-                  "ctrl": {
-                     "name": "Shift 1 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-1 FR TIME"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, frame",
-                     "id": "aa55ded4-a86d-4865-bb2e-7531bcd7dc7f"
-                  },
-                  "alt": {
-                     "name": "Shift 1 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "+1 FR KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, frame",
-                     "id": "7c7ecd08-f3f8-40a5-bc8e-54570eb20b1b"
-                  },
-                  "shift": {
-                     "name": "Shift 1 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "+1 FR LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, frame",
-                     "id": "040bb17b-26ac-4bd9-b11c-961defd06d8a"
-                  },
-                  "altshift": null,
-                  "ctrlalt": {
-                     "name": "Shift 1 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-1 FR KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, frame",
-                     "id": "6bcaf102-01c8-4197-ae1e-f7f51224b167"
-                  },
-                  "ctrlshift": {
-                     "name": "Shift 1 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-1 FR LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, frame",
-                     "id": "3dc8a10b-f2d2-449b-a4c0-669bb1661808"
-                  },
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-               "argument": "1, frame",
-               "id": "6feb2ffe-efdb-46b8-8274-b06e0253f0c0"
-            },
-            {
-               "name": "Shift 5 frame",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "rgba(0, 255, 0, 1)",
-                  "path": "+5 FR TIME"
-               },
-               "modifiers": {
-                  "ctrl": {
-                     "name": "Shift 5 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-5 FR TIME"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "5, frame",
-                     "id": "27ed8d22-e062-4e2f-a8e6-1bdcf1cf00a9"
-                  },
-                  "alt": {
-                     "name": "Shift 5 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "+5 FR KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "5, frame",
-                     "id": "7c137874-84a8-453a-8dfe-352faf334ab7"
-                  },
-                  "shift": {
-                     "name": "Shift 5 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "+5 FR LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "5, frame",
-                     "id": "57f34640-323e-4fd6-9683-197a68713302"
-                  },
-                  "altshift": null,
-                  "ctrlalt": {
-                     "name": "Shift 5 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-5 FR KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "5, frame",
-                     "id": "49d55ecf-a972-4de2-bdee-9921391090ed"
-                  },
-                  "ctrlshift": {
-                     "name": "Shift 5 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-5 FR LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "5, frame",
-                     "id": "39a5443c-45b7-479e-b028-9f012a1ac239"
-                  },
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-               "argument": "5, frame",
-               "id": "aa8bf0c7-b6f1-4130-b24f-ee3265e083f0"
-            },
-            {
-               "name": "Shift 10 frame",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "rgba(0, 255, 0, 1)",
-                  "path": "+10 FR TIME"
-               },
-               "modifiers": {
-                  "ctrl": {
-                     "name": "Shift 10 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-10 FR TIME"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "10, frame",
-                     "id": "8b85a580-5558-469b-98e7-840e88758998"
-                  },
-                  "alt": {
-                     "name": "Shift 10 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "+10 FR KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "10, frame",
-                     "id": "0ab9aa38-d69e-4b26-8c85-bd058d37b8b3"
-                  },
-                  "shift": {
-                     "name": "Shift 10 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "+10 FR  LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "10, frame",
-                     "id": "2d1ad956-2aaa-4560-b47f-c8db7739a04c"
-                  },
-                  "altshift": null,
-                  "ctrlalt": {
-                     "name": "Shift 10 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-10 FR KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "10, frame",
-                     "id": "878fa222-22a1-4d84-97ad-f1a85db3486a"
-                  },
-                  "ctrlshift": {
-                     "name": "Shift 10 frame",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 0, 1)",
-                        "path": "-10 FR  LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "10, frame",
-                     "id": "2c81e279-e626-4485-b64f-023cc90f2958"
-                  },
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-               "argument": "10, frame",
-               "id": "9e543d26-f8c7-49d8-af81-86ca3746088b"
-            },
-            {
-               "name": "Shift 0.5 second",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "rgba(0, 255, 150, 1)",
-                  "path": "+0.5 SEC TIME"
-               },
-               "modifiers": {
-                  "ctrl": {
-                     "name": "Shift 0.5 second",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "-0.5 SEC TIME"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "0.5, sec",
-                     "id": "b491ae99-428e-4757-b453-5e5fe694ec86"
-                  },
-                  "alt": {
-                     "name": "Shift 0.5 second",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "+0.5 SEC KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "0.5, sec",
-                     "id": "b97c5b1f-d560-43aa-be4b-5191fa8174a2"
-                  },
-                  "shift": {
-                     "name": "Shift 0.5 second",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "+0.5 SEC LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "0.5, sec",
-                     "id": "bf6ec200-2987-4efa-a980-108374512f5a"
-                  },
-                  "altshift": null,
-                  "ctrlalt": {
-                     "name": "Shift 0.5 second",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "-0.5 SEC KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "0.5, sec",
-                     "id": "50704bad-b062-45fa-b7f8-eecea5dbd26b"
-                  },
-                  "ctrlshift": {
-                     "name": "Shift 0.5 second",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "-0.5 SEC LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "0.5, sec",
-                     "id": "81d4187c-797f-4431-827c-61a3f4025b51"
-                  },
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-               "argument": "0.5, sec",
-               "id": "c4be8196-1788-41b9-90ac-f8f7019c39c3"
-            },
-            {
-               "name": "ONE SECOND",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "rgba(0, 255, 150, 1)",
-                  "path": "+1  SEC  TIME"
-               },
-               "modifiers": {
-                  "ctrl": {
-                     "name": "ONE SECOND",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "-1  SEC  TIME"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, sec",
-                     "id": "f912a4dc-b823-4cfa-b216-b232ef024d49"
-                  },
-                  "alt": {
-                     "name": "ONE SECOND",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "+1  SEC  KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, sec",
-                     "id": "60920f2d-635d-455d-b4f1-4b3435c8e69b"
-                  },
-                  "shift": {
-                     "name": "ONE SECOND",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "+1  SEC  LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, sec",
-                     "id": "0f353df0-913d-45cd-acae-cf9d26a80369"
-                  },
-                  "altshift": null,
-                  "ctrlalt": {
-                     "name": "ONE SECOND",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "-1  SEC  KEYS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, sec",
-                     "id": "76eb8f2f-7dc7-43b2-8f0c-e9e46b7f8085"
-                  },
-                  "ctrlshift": {
-                     "name": "ONE SECOND",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "color": "rgba(0, 255, 150, 1)",
-                        "path": "-1  SEC  LAYERS"
-                     },
-                     "type": 1,
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-                     "argument": "1, sec",
-                     "id": "d4a3b2b4-9fe4-482d-a093-d5fd4844d03d"
-                  },
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_mega_shifter.jsx",
-               "argument": "1, sec",
-               "id": "293cb6f4-1d3c-4417-8799-026edbd91541"
-            },
-            {
-               "id": "189a25e4-f729-4335-88e8-18f3582b8f6f",
-               "type": 8,
-               "name": "-",
-               "description": "-",
-               "icon": {
-                  "type": 0,
-                  "path": "",
-                  "color": ""
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               }
-            },
-            {
                "type": 1,
                "name": "Ease 33, 33",
                "description": "",
@@ -628,7 +148,7 @@
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_ease.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_ease.jsx",
                "argument": "33.33333, 33.33333",
                "id": "8f261fa0-0755-427e-ab86-18ab57bb5369"
             },
@@ -650,7 +170,7 @@
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_ease.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_ease.jsx",
                "argument": "75, 75",
                "id": "6319c3b4-15b2-4e3e-90b6-c6a268ffbb0d"
             },
@@ -672,7 +192,7 @@
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_ease.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_ease.jsx",
                "argument": "100, 33",
                "id": "a814835b-b916-473d-95ce-0198e953e5a1"
             },
@@ -694,7 +214,7 @@
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_ease.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_ease.jsx",
                "argument": "33, 100",
                "id": "7b4748ad-c880-4dbf-b9d6-2d80e90a2262"
             },
@@ -716,7 +236,7 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\EaseCopy\\EaseCopy-CopyEase.jsxbin",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\EaseCopy_v1.7.3\\shortcut_scripts\\EaseCopy-CopyEase.jsxbin",
                "argument": "",
                "id": "e0fc9d92-fef3-421a-b080-2047ffa9b385"
             },
@@ -750,9 +270,30 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\EaseCopy\\EaseCopy-PasteEase.jsxbin",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\EaseCopy_v1.7.3\\shortcut_scripts\\EaseCopy-PasteEase.jsxbin",
                "argument": "",
                "id": "9d0c7c07-6995-484a-9d36-2072149a4fa8"
+            },
+            {
+               "type": 5,
+               "name": "Time-Reverse Keyframes",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "KEY REV",
+                  "color": "rgba(255, 255, 0, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "menuCommand": "Time-Reverse Keyframes",
+               "id": "97a7d6d4-551a-4243-b58d-2cccd3db5f5d"
             },
             {
                "id": "88d38e2b-5a5e-4011-b7c6-6d7fad2bccc1",
@@ -792,7 +333,7 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_bg.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_bg.jsx",
                "argument": "",
                "id": "c34661b5-da6e-4967-9bf6-e69feca8cfb8"
             },
@@ -814,7 +355,7 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_rectangle.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_rectangle.jsx",
                "argument": "",
                "id": "21682f49-88c1-464e-b0ef-e05ad35b4faf"
             },
@@ -836,7 +377,7 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_null.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_null.jsx",
                "argument": "",
                "id": "c4cb61e4-cd99-4bf8-82de-2664bdb39f4f"
             },
@@ -899,12 +440,12 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_layers_from_masks.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_layer_from_mask.jsx",
                "argument": "",
                "id": "a7201da8-eed2-4ff1-9c5b-7d42e5976e31"
             },
             {
-               "name": "Revers Layers Order",
+               "name": "Reorder Layers",
                "description": "",
                "icon": {
                   "type": 1,
@@ -921,7 +462,7 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Actions\\action_revers_layers_order.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\reorder_layers.jsx",
                "argument": "",
                "id": "4b653364-ba75-4d1e-816e-76dab5015f1d"
             },
@@ -947,11 +488,11 @@
             },
             {
                "type": 1,
-               "name": "Opacity 33/33 and  33/33 ",
+               "name": "Add Opacity",
                "description": "",
                "icon": {
                   "type": 0,
-                  "path": "OPACITY 33/33",
+                  "path": "OPACITY",
                   "color": "rgba(255, 0, 231, 1)"
                },
                "modifiers": {
@@ -963,146 +504,74 @@
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-               "argument": "1, sec, Opacity, 33, 33, 33, 33",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_keys_to_properties.jsx",
+               "argument": "1, sec, Opacity",
                "id": "a74c9d81-4f63-42bd-a78b-ba1035f6fa1e"
             },
             {
                "type": 1,
-               "name": "Position 33/33 and 100/100",
+               "name": "Add Position",
                "description": "",
                "icon": {
                   "type": 0,
-                  "path": "POSITION 33/100",
+                  "path": "POSITION",
                   "color": "rgba(255, 0, 231, 1)"
                },
                "modifiers": {
-                  "ctrl": {
-                     "type": 1,
-                     "name": "Position 100/100 and 33/33",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "path": "POSITION 100/33",
-                        "color": "rgba(255, 0, 231, 1)"
-                     },
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-                     "argument": "1, sec, Position, 100, 100, 33, 33",
-                     "id": "063c0fc3-b458-4f21-9e76-aa1642484eee"
-                  },
-                  "alt": {
-                     "type": 1,
-                     "name": "Position 75/75 and 75/75",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "path": "POSITION 75/75",
-                        "color": "rgba(255, 0, 231, 1)"
-                     },
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-                     "argument": "1, sec, Position, 75, 75, 75, 75",
-                     "id": "2d9e0992-8f8a-42d7-847f-0cb5bbb87b1d"
-                  },
+                  "ctrl": null,
+                  "alt": null,
                   "shift": null,
                   "altshift": null,
                   "ctrlalt": null,
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-               "argument": "1, sec, Position, 33, 33, 100, 100",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_keys_to_properties.jsx",
+               "argument": "1, sec, Position",
                "id": "b8976877-00a0-47ef-91c9-b2c7fd334408"
             },
             {
                "type": 1,
-               "name": "Scale 33/33 and 100/100",
+               "name": "Add Scale",
                "description": "",
                "icon": {
                   "type": 0,
-                  "path": "SCALE 33/100",
+                  "path": "SCALE",
                   "color": "rgba(255, 0, 231, 1)"
                },
                "modifiers": {
-                  "ctrl": {
-                     "type": 1,
-                     "name": "Scale 100/100 and 33/33",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "path": "SCALE 100/33",
-                        "color": "rgba(255, 0, 231, 1)"
-                     },
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-                     "argument": "1, sec, Scale, 100, 100, 33, 33",
-                     "id": "a8d1dad9-c7a9-4be6-8362-984d9eff060a"
-                  },
-                  "alt": {
-                     "type": 1,
-                     "name": "Scale 75/75 and 75/75",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "path": "SCALE 75/75",
-                        "color": "rgba(255, 0, 231, 1)"
-                     },
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-                     "argument": "1, sec, Scale, 75, 75, 75, 75",
-                     "id": "50b8da4a-29b1-49de-a115-455479533720"
-                  },
+                  "ctrl": null,
+                  "alt": null,
                   "shift": null,
                   "altshift": null,
                   "ctrlalt": null,
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-               "argument": "1, sec, Scale, 33, 33, 100, 100",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_keys_to_properties.jsx",
+               "argument": "1, sec, Scale",
                "id": "438e2fb5-cce8-43c1-9ebf-c35f483359ad"
             },
             {
                "type": 1,
-               "name": "Select Property 33/33 and 100/100",
+               "name": "Add Select Property",
                "description": "",
                "icon": {
                   "type": 0,
-                  "path": "SELECT  33/100",
+                  "path": "SELECT",
                   "color": "rgba(255, 0, 231, 1)"
                },
                "modifiers": {
-                  "ctrl": {
-                     "type": 1,
-                     "name": "Select Property 100/100 and 33/33",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "path": "SELECT  100/33",
-                        "color": "rgba(255, 0, 231, 1)"
-                     },
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-                     "argument": "1, sec, Select Property, 100, 100, 33, 33",
-                     "id": "57966db1-565d-4563-b2c3-0a0867c0c899"
-                  },
-                  "alt": {
-                     "type": 1,
-                     "name": "Select Property 75/75 and 75/75",
-                     "description": "",
-                     "icon": {
-                        "type": 0,
-                        "path": "SELECT  75/75",
-                        "color": "rgba(255, 0, 231, 1)"
-                     },
-                     "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-                     "argument": "1, sec, Select Property, 75, 75, 75, 75",
-                     "id": "c5adbe26-bff7-4c6e-8768-6641aaa47dad"
-                  },
+                  "ctrl": null,
+                  "alt": null,
                   "shift": null,
                   "altshift": null,
                   "ctrlalt": null,
                   "ctrlshift": null,
                   "ctrlaltshift": null
                },
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Additions\\add_keyframe.jsx",
-               "argument": "1, sec, Select Property, 33, 33, 100, 100",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_keys_to_properties.jsx",
+               "argument": "1, sec, Select Property",
                "id": "dfb99005-99f0-4e03-ba48-b486bafd6cdd"
             },
             {
@@ -1126,49 +595,6 @@
                }
             },
             {
-               "type": 0,
-               "name": "loop",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "path": "LOOP OUT",
-                  "color": "rgba(255, 255, 255, 1)"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "expression": "loopOut();",
-               "id": "9ea4df83-c397-4a62-8230-12c50a2b36c5"
-            },
-            {
-               "name": "Loop Wiggle",
-               "description": "",
-               "icon": {
-                  "type": 0,
-                  "color": "rgba(255, 255, 255, 1)",
-                  "path": "LOOPWIGG"
-               },
-               "modifiers": {
-                  "ctrl": null,
-                  "alt": null,
-                  "shift": null,
-                  "altshift": null,
-                  "ctrlalt": null,
-                  "ctrlshift": null,
-                  "ctrlaltshift": null
-               },
-               "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Expressions\\exp_loop_wiggle.jsx",
-               "argument": "",
-               "id": "47958c8a-b9ee-4d12-aadd-8998c19b2270"
-            },
-            {
                "name": "Opacity from Parent",
                "description": "",
                "icon": {
@@ -1186,7 +612,7 @@
                   "ctrlaltshift": null
                },
                "type": 1,
-               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Expressions\\exp_opacity_from_parent.jsx",
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\add_parent_opacity.jsx",
                "argument": "",
                "id": "60646764-efcc-4e59-8e24-4d33ece79162"
             },
@@ -1232,6 +658,50 @@
                "type": 1,
                "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Scripts\\Expressions\\exp_type_text.jsx",
                "argument": "",
+               "id": "bbf08944-f8a7-47ff-a396-41d69dbcffdc"
+            },
+            {
+               "name": "Copy Font Props",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "color": "rgba(255, 255, 255, 1)",
+                  "path": "COPYFONT"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 1,
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\CopyApplyFontProps\\copyFontProps.jsx",
+               "argument": "",
+               "id": "241c7325-6a6d-4b51-8083-538db5d48a5d"
+            },
+            {
+               "name": "Apply Font Props",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "color": "rgba(255, 255, 255, 1)",
+                  "path": "APPLFONT"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 1,
+               "filePath": "F:\\YandexDisk\\My Tools\\Tools for After Effects\\Kbar\\Buttons\\Add\\CopyApplyFontProps\\applyFontProps.jsx",
+               "argument": "",
                "id": "9d2a2c3e-7ec0-4aad-90f2-34867e3d4ef3"
             },
             {
@@ -1255,6 +725,94 @@
                }
             },
             {
+               "name": "Enhance ",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "UPSCALE",
+                  "color": "rgba(0, 122, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 3,
+               "matchName": "Enhance AI ",
+               "displayName": "Enhance ",
+               "id": "04815275-7c19-440a-8515-debed2946121"
+            },
+            {
+               "name": "Frame Interpolation ",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "INTERP",
+                  "color": "rgba(0, 122, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 3,
+               "matchName": "Frame Interpolation ",
+               "displayName": "Frame Interpolation ",
+               "id": "44c3233d-091e-4b20-afc6-2c249a36604d"
+            },
+            {
+               "name": "Simple Choker",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "CHOKER",
+                  "color": "rgba(0, 122, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 3,
+               "matchName": "ADBE Simple Choker",
+               "displayName": "Simple Choker",
+               "id": "348bb3cc-ff32-4e05-a23a-cb6e2fbc104a"
+            },
+            {
+               "name": "Twixtor",
+               "description": "",
+               "icon": {
+                  "type": 0,
+                  "path": "TWIXTOR",
+                  "color": "rgba(0, 122, 255, 1)"
+               },
+               "modifiers": {
+                  "ctrl": null,
+                  "alt": null,
+                  "shift": null,
+                  "altshift": null,
+                  "ctrlalt": null,
+                  "ctrlshift": null,
+                  "ctrlaltshift": null
+               },
+               "type": 3,
+               "matchName": "Twixtor 45 Lite",
+               "displayName": "Twixtor",
+               "id": "c1c49951-db3f-4bf2-a641-343404e55259"
+            },
+            {
                "name": "Lumetri Color",
                "description": "",
                "icon": {
@@ -1274,7 +832,7 @@
                "type": 3,
                "matchName": "ADBE Lumetri",
                "displayName": "Lumetri Color",
-               "id": "44c3233d-091e-4b20-afc6-2c249a36604d"
+               "id": "2c47dcf5-cae2-414c-863b-14b0c0d10855"
             },
             {
                "name": "Curves",
@@ -1432,7 +990,7 @@
          "id": "9c21f5cc-95ed-4b9e-be1e-750a4df2bb16"
       }
    ],
-   "scale": 0.28,
+   "scale": 0.26,
    "margin": 0,
    "showTooltips": true,
    "showModifiersOnTooltips": true
